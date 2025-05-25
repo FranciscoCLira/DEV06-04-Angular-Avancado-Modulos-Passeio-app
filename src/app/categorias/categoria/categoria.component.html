@@ -31,16 +31,17 @@
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-blue-400"
         required
       >
-    </textarea>
+      </textarea>
       <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('descricao')">
         Campo obrigatório
       </span>
     </div>
 
-    <button type="submit" class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow hover:bg-blue-700">
-        Cadastrar Categoria
+    <button
+      type="submit"
+      class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow hover:bg-blue-700"
+    >
+      Cadastrar Categoria
     </button>
-
-
   </form>
 </div>
