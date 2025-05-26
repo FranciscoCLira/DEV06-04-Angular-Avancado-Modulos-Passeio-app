@@ -6,9 +6,19 @@
       "descrição": "Lugares para fazer compras e passear"
     },
     {
-      "id": "6e74",
-      "nome": "Restairamtes Atualizado",
-      "descrição": "Lugares para alimmentação"
+      "id": "ca78",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho"
+    },
+    {
+      "id": "0b31",
+      "nome": "Praias 2",
+      "descricao": "Lugares para tomar banho 2"
+    },
+    {
+      "id": "5597",
+      "nome": "teste limpa retorno",
+      "descricao": "teste para limpar campos da tela no retorno do cadastramento"
     }
   ]
 }
