@@ -19,6 +19,11 @@
       "id": "5597",
       "nome": "teste limpa retorno",
       "descricao": "teste para limpar campos da tela no retorno do cadastramento"
+    },
+    {
+      "id": "5d5d",
+      "nome": "Parques",
+      "descricao": "lugares ao ar livre para passear e visitar"
     }
   ],
   "lugares": [
@@ -29,6 +34,38 @@
       "localizacao": "Rio de Janeiro",
       "urlFoto": "foto da praia do ze",
       "avaliacao": "4"
+    },
+    {
+      "id": "7624",
+      "nome": "Praia do Caribe ",
+      "categoria": "Praias",
+      "localizacao": "Caribe",
+      "urlFoto": "https://www.istockphoto.com/br/foto/coconut-palm-trees-and-beautiful-turquoise-sea-on-tropical-paradise-beach-gm2193048601-611303331",
+      "avaliacao": "5"
+    },
+    {
+      "id": "4e99",
+      "nome": "Praia do sol",
+      "categoria": "Praias",
+      "localizacao": "Paraiso",
+      "urlFoto": "https://images.unsplash.com/photo-1503756234508-e32369269deb?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "avaliacao": "5"
+    },
+    {
+      "id": "5437",
+      "nome": "Fernando de Noronha",
+      "categoria": "Praias",
+      "localizacao": "Fernando de Noronha",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/02/fernando-noronha-capa-2022-1536x805.jpg",
+      "avaliacao": "5"
+    },
+    {
+      "id": "4e65",
+      "nome": "Parque do Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqKNe82Jvh9Kr6Mg5OUl6_WZxr3HaRxbVwBqyKdrZDMYG_LV9KCKxPqn7n6Fyymeb7w0pvhkG4kKSeaE-FLTwqG9TP1KQz-xY-QNRgIKl1kV2dwxaCnnZ5rvlgXfAehB_f_9cVx=s680-w680-h510-rw",
+      "avaliacao": "5"
     }
   ]
 }

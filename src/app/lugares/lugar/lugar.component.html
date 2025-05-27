@@ -13,10 +13,14 @@
                 placeholder="Ex: Restaurantes, Praias, Shoppings"
                 class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
             />
+            <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('nome')">
+                Campo obrigatório
+            </span>
+
         </div>
 
         <div class="mb-4">
-            <label for="nome" class="block text-gray-600 font-medium mb-2">Categoria</label>
+            <label for="categoria" class="block text-gray-600 font-medium mb-2">Categoria</label>
             <select 
                 id="categoria"
                 name="categoria"
@@ -27,8 +31,10 @@
             <option *ngFor="let cat of categorias" [value]="cat.nome">
                 {{ cat.nome }}  
             </option>
-
             </select>
+            <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('categoria')">
+                Campo obrigatório
+            </span>
         </div>
 
         <div class="mb-4">
@@ -41,6 +47,9 @@
                 placeholder="Ex: São Paulo"
                 class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
             />
+            <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('localizacao')">
+                Campo obrigatório
+            </span>
         </div>
 
 
@@ -54,6 +63,9 @@
                 placeholder="Ex: https://example.com/foto.jpg"
                 class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
             />
+            <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('urlFoto')">
+                Campo obrigatório
+            </span>
         </div>
 
 
@@ -72,6 +84,10 @@
                 <option [value]="4">4 - Muito Bom</option>
                 <option [value]="5">5 - Excelente</option> 
             </select>
+            <span class="text-red-500 text-sm" *ngIf="isCampoInvalido('avaliacao')">
+                Campo obrigatório
+            </span>
+
         </div>
 
         <button type="submit"
