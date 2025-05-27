@@ -14,6 +14,8 @@ export class GaleriaComponent {
 
   lugares: Lugar[] = [];
   categoriasFiltro: Categoria[] = [];
+  nomeFiltro: string = '';
+  categoriaFiltro: string = '';
 
   constructor (
     private lugarService: LugarService,
@@ -33,4 +35,10 @@ export class GaleriaComponent {
     getTotalEstrelas(lugar: Lugar) : string {
       return '&#9733;'.repeat(lugar.avaliacao || 0) + '&#9734;'.repeat(5 - (lugar.avaliacao || 0))
     }
+
+    filtrar(){
+      this.lugarService.filtrar(this.nomeFiltro, this.categoriaFiltro)
+        .subscribe(resultado => this.lugares = resultado);
+    }
+
 }

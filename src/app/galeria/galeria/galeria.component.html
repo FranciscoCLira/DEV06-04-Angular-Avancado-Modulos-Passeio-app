@@ -1,20 +1,30 @@
 <!-- Filtrons -->
+<form #frm="ngForm">
+    <div class="p-4 bg-whithe shadow">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+    
+            <input type="text"
+                   name="nomeFiltro" 
+                   [(ngModel)]="nomeFiltro"
+                   placeholder="Pesquisar pelo nome do local"
+                   class="w-full border border-gray-300 p-2 rounded shadow-sm focus:ring focus:ring-blue-400">
+    
+            <select name="categoriaFiltro" 
+                [(ngModel)]="categoriaFiltro"
+                class="w-full border border-gray-300 p-2 rounded shadow-sm focus:ring focus:ring-blue-400">
+                <option [value]="">Todas as categorias</option>
+                <option *ngFor="let cat of categoriasFiltro" [value]="cat.nome">{{ cat.nome }}</option>
+            </select>
 
-<div class="p-4 bg-whithe shadow">
-    <div class="flex flex-col md:flex-row items-center justify-center gap-4">
-
-        <input type="text" 
-               placeholder="Pesquisar pelo nome do local"
-               class="w-full border border-gray-300 p-2 rounded shadow-sm focus:ring focus:ring-blue-400">
-
-        <select class="w-full border border-gray-300 p-2 rounded shadow-sm focus:ring focus:ring-blue-400">
-            <option [value]="">Todas as categorias</option>
-            <option *ngFor="let cat of categoriasFiltro" [value]="cat.nome">{{ cat.nome }}</option>
-        </select>
-
+            <button (click)="filtrar()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">
+                Pesquisar
+            </button>
+    
+        </div>
+    
     </div>
 
-</div>
+</form>
 
 
 <!-- Listagem lugares -->
