@@ -20,5 +20,15 @@
       "nome": "teste limpa retorno",
       "descricao": "teste para limpar campos da tela no retorno do cadastramento"
     }
+  ],
+  "lugares": [
+    {
+      "id": "c4e7",
+      "nome": "Praia do Ze",
+      "categoria": "Praias",
+      "localizacao": "Rio de Janeiro",
+      "urlFoto": "foto da praia do ze",
+      "avaliacao": "4"
+    }
   ]
 }
