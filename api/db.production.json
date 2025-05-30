@@ -24,6 +24,11 @@
       "id": "5d5d",
       "nome": "Parques",
       "descricao": "lugares ao ar livre para passear e visitar"
+    },
+    {
+      "nome": "Parques",
+      "descricao": "Lugares para se distrair e passear",
+      "id": "0wB89V1"
     }
   ],
   "lugares": [
@@ -34,6 +39,14 @@
       "localizacao": "Caribe",
       "urlFoto": "https://magazine.zarpo.com.br/wp-content/uploads/2022/02/capa_praia-do-caribe_zarpo-770x515.jpg",
       "avaliacao": "3"
+    },
+    {
+      "nome": "Parque Raphael Lazuri",
+      "categoria": "Parques",
+      "localizacao": "São Bernardo do Campo",
+      "urlFoto": "https://media-cdn.tripadvisor.com/media/photo-s/08/6e/31/43/parque-rafael-lazzuri.jpg",
+      "avaliacao": "5",
+      "id": "ZKRiYYB"
     }
   ]
 }
