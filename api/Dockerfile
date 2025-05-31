@@ -3,7 +3,6 @@ FROM node:22-alpine
 WORKDIR /app
 
 RUN npm install -g json-server@0.17.4 
-                    
 
 COPY ./db.production.json .
 
